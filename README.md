@@ -1,112 +1,48 @@
 # Zhang Qi
 
-## AI Decision Intelligence Engineer
+M.S. student at Tianjin University, focused on **operations research and decision optimization** for manufacturing and supply-chain problems.
 
-M.S. Student @ Tianjin University
+I am currently seeking an **Operations Research / Optimization Algorithm Internship** in production scheduling, inventory optimization, or logistics planning.
 
-I focus on building intelligent decision systems by combining **Mathematical Optimization** and **Artificial Intelligence** for industrial and real-world applications.
+## Focus
 
----
+- Mathematical programming: MILP, CP-SAT, Gurobi, OR-Tools
+- Scheduling: heterogeneous-machine assignment, precedence and due-date constraints
+- Supply chain: demand forecasting, Newsvendor decisions, multi-warehouse allocation
+- Routing: VRP, insertion heuristics, ALNS, rolling-horizon re-optimization
+- Data: Python, SQL, DuckDB, LightGBM
 
-## Research Interests
+## Selected Projects
 
-### Mathematical Optimization
-- Mixed Integer Linear Programming (MILP)
-- Constraint Programming / CP-SAT
-- Gurobi & OR-Tools
-- Adaptive Large Neighborhood Search (ALNS)
-- Rolling Horizon Optimization
-- Model Predictive Control (MPC)
+### [Production Scheduling](https://github.com/zhang77-i/smart-manufacturing-scheduler)
 
-### AI & Machine Learning
-- Time Series Forecasting
-- LightGBM
-- Deep Learning
-- Transformer Models
-- Graph Neural Networks
-- Reinforcement Learning
-- LLM-based Decision Agents
+A manufacturing scheduling case study based on a technical assessment problem. The full project studies order-machine compatibility, due dates, capacity constraints, CP-SAT baselines, constructive heuristics, and independent feasibility checks.
 
----
+### [Demand Forecasting and Inventory Optimization](https://github.com/zhang77-i/supply-chain-intelligence)
 
-## Featured Projects
+A public-data supply-chain case study connecting time-safe forecasting features and intermittent-demand baselines with Newsvendor inventory decisions and coordinated warehouse allocation.
 
-### Supply Chain Intelligence
-**Demand Forecasting + Inventory Optimization**
+### [Dynamic Delivery Routing](https://github.com/zhang77-i/dynamic-routing-optimization)
 
-Building intelligent supply chain decision systems with:
-- Probabilistic demand forecasting
-- Quantile prediction
-- Inventory optimization
-- Stochastic decision making
+A public-data routing case study covering dynamic order insertion, ALNS operators, rolling-horizon re-optimization, benchmark evaluation, and route-feasibility validation.
 
----
+## What I Emphasize
 
-### Smart Manufacturing Scheduler
-**Production Scheduling + Constraint Optimization**
+For each project, I aim to explain and verify:
 
-Developing optimization algorithms for:
-- Job Shop Scheduling
-- Heterogeneous Machine Scheduling
-- CP-SAT based production planning
+1. business input and decision variables;
+2. objective functions and constraints;
+3. algorithm choice and computational trade-offs;
+4. feasibility checks and reproducible evaluation;
+5. limitations when moving from public data to production systems.
 
----
+The repositories are learning and research case studies, not claims of production deployment. Implementations may build on papers, official documentation, and open-source references; my work focuses on problem adaptation, modeling, experiments, and validation.
 
-### Learning-Augmented Routing
-**AI + Operations Research for Dynamic Routing**
+## Education
 
-Exploring:
-- Vehicle Routing Problems (VRP)
-- Graph Neural Networks
-- ALNS heuristics
-- Dynamic decision making
-
----
-
-### Industrial AI Copilot
-**Prediction + Optimization + Intelligent Agents**
-
-Researching AI-assisted industrial decision systems integrating:
-- Predictive analytics
-- Optimization models
-- LLM agents
-
----
-
-## Research Background
-
-### Energy System Optimization
-Research on integrated energy system scheduling and optimization.
-
-Topics include:
-- MILP optimization
-- Renewable energy uncertainty
-- Multi-objective decision making
-
-Manuscript under review.
-
----
-
-## Tech Stack
-
-**Languages**
-
-Python · C++ · SQL
-
-**Optimization**
-
-Gurobi · OR-Tools · YALMIP · CP-SAT
-
-**AI Frameworks**
-
-PyTorch · LightGBM · TensorFlow
-
-**Tools**
-
-Git · Linux · Docker
-
----
+- Tianjin University — M.S. student, Energy and Power Engineering, 2025–2028
+- Tianjin University of Commerce — B.M., Business Administration, 2020–2024
 
 ## Contact
 
-Email: 3170647160@qq.com
+- Email: 3170647160@qq.com
