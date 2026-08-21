@@ -1,112 +1,42 @@
-# Zhang Qi
+# Zhang Qi | 张琦
 
-## AI Decision Intelligence Engineer
+**Operations Research & Optimization | 运筹优化 · 生产排程 · 供应链 · 动态配送**
 
-M.S. Student @ Tianjin University
+M.S. student in Energy and Power Engineering at Tianjin University (2025–2028). I build reproducible decision models for manufacturing and supply-chain problems, with an emphasis on explicit constraints, feasible solutions, and honest evaluation.
 
-I focus on building intelligent decision systems by combining **Mathematical Optimization** and **Artificial Intelligence** for industrial and real-world applications.
+> Seeking an **Operations Research / Optimization Algorithm Internship**.
 
----
+## Selected Work
 
-## Research Interests
+| Project | Decision problem | Methods | Data / status |
+|---|---|---|---|
+| [Heterogeneous Parallel-Machine Scheduling](https://github.com/zhang77-i/smart-manufacturing-scheduler) | Assign orders to compatible machines and schedule them under release-time, capacity, precedence, and due-date constraints | CP-SAT, constructive heuristics, lexicographic objectives, independent validation | Reproducible case study |
+| [Demand Forecasting & Multi-Warehouse Inventory](https://github.com/zhang77-i/supply-chain-intelligence) | Connect demand estimates with replenishment and coordinated warehouse allocation | Time-safe features, intermittent-demand baselines, quantile forecasting, Newsvendor, allocation optimization | Tianchi public data; offline backtest |
+| [Dynamic Last-Mile Routing](https://github.com/zhang77-i/dynamic-routing-optimization) | Insert newly arrived orders and re-optimize routes while preserving feasibility | Insertion heuristics, ALNS, rolling horizon, route validation | LaDe public data; offline experiments |
+| **Yuntu SafeOR Industrial Decision Copilot** | Coordinate production, inventory, energy cost, and uncertainty in a synthetic ammonia-production setting | Rolling optimization, constraint checking, scenario analysis, human-in-the-loop recommendations | Submitted to the 2026 Feishu AI talent competition; team project; simulation only |
 
-### Mathematical Optimization
-- Mixed Integer Linear Programming (MILP)
-- Constraint Programming / CP-SAT
-- Gurobi & OR-Tools
-- Adaptive Large Neighborhood Search (ALNS)
-- Rolling Horizon Optimization
-- Model Predictive Control (MPC)
+## What You Will Find in My Repositories
 
-### AI & Machine Learning
-- Time Series Forecasting
-- LightGBM
-- Deep Learning
-- Transformer Models
-- Graph Neural Networks
-- Reinforcement Learning
-- LLM-based Decision Agents
+- clear business inputs, decision variables, objectives, and constraints;
+- runnable examples, baselines, tests, and independent feasibility checks;
+- discussion of algorithm choices, failure cases, and computational trade-offs;
+- explicit boundaries between public-data experiments, simulation, and production use.
 
----
+I use papers, official documentation, and open-source references as learning sources. My work focuses on adapting the problem, formulating the model, implementing experiments, and validating results. These repositories do **not** claim production deployment or verified enterprise savings.
 
-## Featured Projects
+## Toolbox
 
-### Supply Chain Intelligence
-**Demand Forecasting + Inventory Optimization**
+`Python` · `SQL` · `OR-Tools` · `CP-SAT` · `Gurobi` · `LightGBM` · `DuckDB` · `Git`
 
-Building intelligent supply chain decision systems with:
-- Probabilistic demand forecasting
-- Quantile prediction
-- Inventory optimization
-- Stochastic decision making
+## Research
 
----
+Energy-system scheduling and optimization; manuscript under review.
 
-### Smart Manufacturing Scheduler
-**Production Scheduling + Constraint Optimization**
+## Education
 
-Developing optimization algorithms for:
-- Job Shop Scheduling
-- Heterogeneous Machine Scheduling
-- CP-SAT based production planning
-
----
-
-### Learning-Augmented Routing
-**AI + Operations Research for Dynamic Routing**
-
-Exploring:
-- Vehicle Routing Problems (VRP)
-- Graph Neural Networks
-- ALNS heuristics
-- Dynamic decision making
-
----
-
-### Industrial AI Copilot
-**Prediction + Optimization + Intelligent Agents**
-
-Researching AI-assisted industrial decision systems integrating:
-- Predictive analytics
-- Optimization models
-- LLM agents
-
----
-
-## Research Background
-
-### Energy System Optimization
-Research on integrated energy system scheduling and optimization.
-
-Topics include:
-- MILP optimization
-- Renewable energy uncertainty
-- Multi-objective decision making
-
-Manuscript under review.
-
----
-
-## Tech Stack
-
-**Languages**
-
-Python · C++ · SQL
-
-**Optimization**
-
-Gurobi · OR-Tools · YALMIP · CP-SAT
-
-**AI Frameworks**
-
-PyTorch · LightGBM · TensorFlow
-
-**Tools**
-
-Git · Linux · Docker
-
----
+- Tianjin University — M.S., Energy and Power Engineering, 2025–2028
+- Tianjin University of Commerce — B.M., Business Administration, 2020–2024
 
 ## Contact
 
-Email: 3170647160@qq.com
+- Email: 3170647160@qq.com
