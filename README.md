@@ -1,46 +1,40 @@
-# Zhang Qi
+# Zhang Qi | 张琦
 
-M.S. student at Tianjin University, focused on **operations research and decision optimization** for manufacturing and supply-chain problems.
+**Operations Research & Optimization | 运筹优化 · 生产排程 · 供应链 · 动态配送**
 
-I am currently seeking an **Operations Research / Optimization Algorithm Internship** in production scheduling, inventory optimization, or logistics planning.
+M.S. student in Energy and Power Engineering at Tianjin University (2025–2028). I build reproducible decision models for manufacturing and supply-chain problems, with an emphasis on explicit constraints, feasible solutions, and honest evaluation.
 
-## Focus
+> Seeking an **Operations Research / Optimization Algorithm Internship**.
 
-- Mathematical programming: MILP, CP-SAT, Gurobi, OR-Tools
-- Scheduling: heterogeneous-machine assignment, precedence and due-date constraints
-- Supply chain: demand forecasting, Newsvendor decisions, multi-warehouse allocation
-- Routing: VRP, insertion heuristics, ALNS, rolling-horizon re-optimization
-- Data: Python, SQL, DuckDB, LightGBM
+## Selected Work
 
-## Selected Projects
+| Project | Decision problem | Methods | Data / status |
+|---|---|---|---|
+| [Heterogeneous Parallel-Machine Scheduling](https://github.com/zhang77-i/smart-manufacturing-scheduler) | Assign orders to compatible machines and schedule them under release-time, capacity, precedence, and due-date constraints | CP-SAT, constructive heuristics, lexicographic objectives, independent validation | Reproducible case study |
+| [Demand Forecasting & Multi-Warehouse Inventory](https://github.com/zhang77-i/supply-chain-intelligence) | Connect demand estimates with replenishment and coordinated warehouse allocation | Time-safe features, intermittent-demand baselines, quantile forecasting, Newsvendor, allocation optimization | Tianchi public data; offline backtest |
+| [Dynamic Last-Mile Routing](https://github.com/zhang77-i/dynamic-routing-optimization) | Insert newly arrived orders and re-optimize routes while preserving feasibility | Insertion heuristics, ALNS, rolling horizon, route validation | LaDe public data; offline experiments |
+| **Yuntu SafeOR Industrial Decision Copilot** | Coordinate production, inventory, energy cost, and uncertainty in a synthetic ammonia-production setting | Rolling optimization, constraint checking, scenario analysis, human-in-the-loop recommendations | Submitted to the 2026 Feishu AI talent competition; team project; simulation only |
 
-### [Production Scheduling](https://github.com/zhang77-i/smart-manufacturing-scheduler)
+## What You Will Find in My Repositories
 
-A manufacturing scheduling case study based on a technical assessment problem. The full project studies order-machine compatibility, due dates, capacity constraints, CP-SAT baselines, constructive heuristics, and independent feasibility checks.
+- clear business inputs, decision variables, objectives, and constraints;
+- runnable examples, baselines, tests, and independent feasibility checks;
+- discussion of algorithm choices, failure cases, and computational trade-offs;
+- explicit boundaries between public-data experiments, simulation, and production use.
 
-### [Demand Forecasting and Inventory Optimization](https://github.com/zhang77-i/supply-chain-intelligence)
+I use papers, official documentation, and open-source references as learning sources. My work focuses on adapting the problem, formulating the model, implementing experiments, and validating results. These repositories do **not** claim production deployment or verified enterprise savings.
 
-A public-data supply-chain case study connecting time-safe forecasting features and intermittent-demand baselines with Newsvendor inventory decisions and coordinated warehouse allocation.
+## Toolbox
 
-### [Dynamic Delivery Routing](https://github.com/zhang77-i/dynamic-routing-optimization)
+`Python` · `SQL` · `OR-Tools` · `CP-SAT` · `Gurobi` · `LightGBM` · `DuckDB` · `Git`
 
-A public-data routing case study covering dynamic order insertion, ALNS operators, rolling-horizon re-optimization, benchmark evaluation, and route-feasibility validation.
+## Research
 
-## What I Emphasize
-
-For each project, I aim to explain and verify:
-
-1. business input and decision variables;
-2. objective functions and constraints;
-3. algorithm choice and computational trade-offs;
-4. feasibility checks and reproducible evaluation;
-5. limitations when moving from public data to production systems.
-
-The repositories are learning and research case studies, not claims of production deployment. Implementations may build on papers, official documentation, and open-source references; my work focuses on problem adaptation, modeling, experiments, and validation.
+Energy-system scheduling and optimization; manuscript under review.
 
 ## Education
 
-- Tianjin University — M.S. student, Energy and Power Engineering, 2025–2028
+- Tianjin University — M.S., Energy and Power Engineering, 2025–2028
 - Tianjin University of Commerce — B.M., Business Administration, 2020–2024
 
 ## Contact
